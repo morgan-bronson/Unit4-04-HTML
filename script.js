@@ -1,11 +1,7 @@
 'use strict'
 
-document.getElementById('mybtn').addEventListener('click', displayDate)
+document.getElementById('mybtn').addEventListener('click', showalert);
 
-function displayDate () {
-  document.getElementById('demo').innerHTML = Date()
-}
-
-function textBox () {
-  document.getElementById("myText").value = "Goodbye!";
+function showalert () {
+  alert(document.getElementById("myText").value);
 }
