@@ -6,6 +6,6 @@ function displayDate () {
   document.getElementById('demo').innerHTML = Date()
 }
 
-function textBox() {
+function textBox () {
   document.getElementById("myText").value = "Goodbye!";
 }
